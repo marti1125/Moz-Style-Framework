@@ -171,12 +171,49 @@ table {
   font-family: 'openSansRegular';
   src: url('OpenSans-Regular.ttf') format('truetype');
 }
-h1 {
+body {
   font-family: 'openSansRegular', sans-serif;
-  font-size: 52px;
+}
+h1 {
+  font-size: 48px;
   letter-spacing: -2px;
   line-height: 100%;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
   color: #484848;
   font-weight: normal;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 100%;
+  color: #484848;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 100%;
+  color: #484848;
+}
+h4 {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+  color: #484848;
+}
+/* body text */
+.body {
+  font-size: 14px;
+  line-height: 20px;
+  color: #484848;
+}
+.large {
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 100%;
+}
+.small,
+small {
+  font-size: 12px;
+  line-height: 100%;
+  color: #484848;
 }
