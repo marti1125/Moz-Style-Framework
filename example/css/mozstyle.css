@@ -206,6 +206,39 @@ h4 {
   line-height: 20px;
   color: #484848;
 }
+.bg-sand {
+  background: #f5f1e7 url(image/bg-sand.png) 0 0 repeat-x;
+}
+.bg-sky {
+  background: #ecedee url(image/bg-sky.png) 0 0 repeat-x;
+}
+.bg-stone {
+  background: #f9f9f9 url(image/bg-stone.png) 0 0 repeat-x;
+}
+.bg-obsidian {
+  background: #3c5466 url(image/bg-obsidian.png) 0 0 repeat-x;
+}
+.btn-orange {
+  display: inline-block;
+  border-radius: 0.25em 0.25em 0.25em 0.25em;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1), 0px -2px 0px 0px rgba(0, 0, 0, 0.2) inset;
+  background-color: #276195;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(bottom, #e47820 5%, #c84b1d 95%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0px 20px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 300px;
+  min-width: 300px;
+  border: 0px none;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  font-family: 'Open Sans', sans-serif;
+  -moz-transition: all 0.25s linear 0s;
+}
 .large {
   font-size: 72px;
   letter-spacing: -3px;
@@ -216,4 +249,11 @@ small {
   font-size: 12px;
   line-height: 100%;
   color: #484848;
+}
+html[dir=rtl] p,
+html[dir=rtl] h1,
+html[dir=rtl] h2,
+html[dir=rtl] h3,
+html[dir=rtl] h4 {
+  text-align: right;
 }

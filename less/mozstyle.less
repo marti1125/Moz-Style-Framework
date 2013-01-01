@@ -9,37 +9,37 @@
 }
 
 body {
-	font-family:'openSansRegular', sans-serif;
+	font-family: 'openSansRegular', sans-serif;
 }
 
 h1 { 
-	font-size:48px;
-	letter-spacing:-2px;
-	line-height:100%;
-	text-shadow:0px 1px 0px rgba(255,255,255,0.75);
-	color:@color-text;
-	font-weight:normal;
+	font-size: 48px;
+	letter-spacing: -2px;
+	line-height: 100%;
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.75);
+	color: @color-text;
+	font-weight: normal;
 }
 
 h2 {
 	font-size: 32px;
 	letter-spacing: -1px;
 	line-height: 100%;
-	color:@color-text;
+	color: @color-text;
 }
 
 h3 {
 	font-size: 28px;
 	letter-spacing: -0.5px;
 	line-height: 100%;
-	color:@color-text;
+	color: @color-text;
 }
 
 h4 {
 	font-size: 24px;
 	letter-spacing: -0.25px;
 	line-height: 100%;
-	color:@color-text;
+	color: @color-text;
 }
 
 // class
@@ -48,7 +48,45 @@ h4 {
 .body {
 	font-size: 14px;
 	line-height: 20px;
-	color:@color-text;
+	color: @color-text;
+}
+
+.bg-sand {
+	background: #F5F1E7 url(image/bg-sand.png) 0 0 repeat-x;
+}
+
+.bg-sky {
+	background: #ECEDEE url(image/bg-sky.png) 0 0 repeat-x;
+}
+
+.bg-stone {
+	background: #F9F9F9 url(image/bg-stone.png) 0 0 repeat-x;
+}
+
+.bg-obsidian {
+	background: #3C5466 url(image/bg-obsidian.png) 0 0 repeat-x;
+}
+
+.btn-orange {
+	display: inline-block;
+    border-radius: 0.25em 0.25em 0.25em 0.25em;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1), 0px -2px 0px 0px rgba(0, 0, 0, 0.2) inset;
+    background-color: rgb(39, 97, 149);
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(bottom, rgb(228,120,32) 5%, rgb(200,75,29) 95%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 20px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 300px;
+    min-width: 300px;
+    border: 0px none;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans',sans-serif;
+    -moz-transition: all 0.25s linear 0s;
 }
 
 .large {
@@ -60,13 +98,7 @@ h4 {
 .small, small {
 	font-size: 12px;
 	line-height: 100%;
-	color:@color-text;
+	color: @color-text;
 }
 
-// support rtl
-
-html[dir=rtl] {
-  p, h1, h2, h3, h4 {
-    text-align:right;
-  }
-}
+@import "rtl.less";
