@@ -45,19 +45,15 @@ h4 {
 // class
 
 /* body text */
+
 .body {
 	font-size: 14px;
 	line-height: 20px;
 	color: @color-text;
 }
 
-.bg-sand {
-	background: #F5F1E7 url(image/bg-sand.png) 0 0 repeat-x;
-}
-
-.bg-sky {
-	background: #ECEDEE url(image/bg-sky.png) 0 0 repeat-x;
-}
+@import "sand.less";
+@import "sky.less";
 
 .bg-stone {
 	background: #F9F9F9 url(image/bg-stone.png) 0 0 repeat-x;
@@ -65,28 +61,6 @@ h4 {
 
 .bg-obsidian {
 	background: #3C5466 url(image/bg-obsidian.png) 0 0 repeat-x;
-}
-
-.btn-orange {
-	display: inline-block;
-    border-radius: 0.25em 0.25em 0.25em 0.25em;
-    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1), 0px -2px 0px 0px rgba(0, 0, 0, 0.2) inset;
-    background-color: rgb(39, 97, 149);
-    background-repeat: repeat-x;
-    background-image: -moz-linear-gradient(bottom, rgb(228,120,32) 5%, rgb(200,75,29) 95%);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 14px;
-    padding: 0px 20px;
-    height: 40px;
-    line-height: 40px;
-    text-decoration: none;
-    width: 300px;
-    min-width: 300px;
-    border: 0px none;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
-    font-family: 'Open Sans',sans-serif;
-    -moz-transition: all 0.25s linear 0s;
 }
 
 .large {
